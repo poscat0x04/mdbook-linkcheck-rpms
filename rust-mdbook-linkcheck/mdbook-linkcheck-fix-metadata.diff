@@ -1,0 +1,10 @@
+--- mdbook-linkcheck-0.7.7/Cargo.toml	1970-01-01T00:00:01+00:00
++++ mdbook-linkcheck-0.7.7/Cargo.toml	2024-05-27T03:15:13.087870+00:00
+@@ -61,7 +61,6 @@
+ 
+ [dependencies.reqwest]
+ version = "0.11"
+-features = ["native-tls-vendored"]
+ default-features = false
+ 
+ [dependencies.semver]
